@@ -1,6 +1,20 @@
-site_name: My Docs
+# contents
+nav:
+  - Home:
+      - インデックス: index.md
+      - ほげ: hoge.md
+
+# metadata
+site_name: MkDocs Test Site
+docs_dir: src
+use_directory_urls: false
+
+# theme
 theme:
-    name: material
+  name: material
+  language: ja
+
+# extension
 markdown_extensions:
   - pymdownx.superfences:
       custom_fences:
